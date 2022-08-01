@@ -189,9 +189,6 @@ I
 111  25.76326424  088.90858113 20
 115  25.76172368  088.90924827
 120 Linear Feature 1
-111  25.76330298  088.90908176
-115  25.76183492  088.90967917
-120 Linear Feature 1
 111  25.76183485  088.90967950 1 102
 112  25.76167653  088.90921017  25.76160363  088.90899151 1 102
 116  25.76179243  088.90890724  25.76179258  088.90890717
@@ -272,13 +269,20 @@ I
 112  25.76260316  088.90784029  25.76264311  088.90796256
 111  25.76260316  088.90784029 1 102
 116  25.76276138  088.90833828  25.76280132  088.90846054
-21  25.76607180  088.90660561 2 159.7 3.00 16  VASI
+21  25.76607180  088.90660560 2 159.7 3.00 16  VASI
 21  25.75202681  088.91142101 2 339.7 3.00 34  VASI
-14  25.76327657  088.90915293 49 0 Saidpur
-1300  25.76297754  088.90888780 -21.5 tie_down jets|turboprops|props|helos Ramp Start 1
+1300  25.76134301  088.90945530 -111.1 tie_down props New Ramp Start 5
+1301 A none 
+1300  25.76179799  088.90956373 71.1 gate turboprops Ramp 5
 1301 B none 
-1300  25.76332561  088.90870668 157.7 tie_down jets|turboprops|props|helos Ramp Start 2
-1301 B airline 
+1300  25.76216708  088.90941004 71.1 gate turboprops Ramp 4
+1301 B none 
+1300  25.76253807  088.90926050 71.1 gate turboprops Ramp 3
+1301 B none 
+1300  25.76291654  088.90910486 71.1 gate turboprops Ramp 2
+1301 B none 
+1300  25.76322804  088.90898243 72.3 gate turboprops Ramp 1
+1301 B none 
 18  25.75956312  088.90987015 1 Saidpur
 19  25.76735822  088.90601150 1 WS
 19  25.76243460  088.90825466 1 WS
@@ -296,109 +300,52 @@ I
 1101 34 left
 1110 34 122900 arrivals|departures heavy|jets|turboprops|props|helos|fighters 000000 000000 Arr,Dep Rwy 34
 1200 
-1201  25.76278685  088.90762232 both 0 A_start(split)
-1201  25.76281596  088.90750655 both 1 A_start(split)
-1201  25.76293493  088.90742762 both 2 A_start(split)
-1201  25.76246395  088.90758924 both 3 A_stop
-1201  25.76271510  088.90764243 both 4 A_stop
-1201  25.76260296  088.90758086 both 5 A_stop(split)
-1201  25.76282758  088.90782282 both 6 A_stop
-1201  25.76301982  088.90838328 both 7 A_start
-1201  25.76300121  088.90851626 both 8 unnamed entity(split)
-1201  25.76295061  088.90858181 both 9 unnamed entity(split)
-1201  25.76285542  088.90865004 both 10 unnamed entity(split)
-1201  25.76275542  088.90880657 both 11 unnamed entity(split)
-1201  25.76281566  088.90892295 both 12 unnamed entity(split)
-1201  25.76297754  088.90888780 both 13 unnamed entity(split)
-1201  25.76304762  088.90882977 both 14 A_start(split)
-1201  25.76311687  088.90846275 both 15 unnamed entity(split)
-1201  25.76322651  088.90848817 both 16 unnamed entity(split)
-1201  25.76340362  088.90845339 both 17 unnamed entity(split)
-1201  25.76346146  088.90853365 both 18 unnamed entity(split)
-1201  25.76344941  088.90862462 both 19 unnamed entity(split)
-1201  25.76332561  088.90870668 both 20 unnamed entity(split)
-1201  25.76322645  088.90873669 both 21 A_start(split)
-1201  25.76311282  088.90864982 both 22 A_start(split)
-1201  25.76323835  088.90844784 both 23 Ground_stop
-1201  25.76343180  088.90838535 both 24 Ground_stop
-1201  25.76349863  088.90843873 both 25 Ground_stop
-1201  25.76362291  088.90881236 both 26 Ground_stop
-1201  25.76361354  088.90889047 both 27 Ground_stop
-1201  25.76357602  088.90893213 both 28 Ground_stop
-1201  25.76311993  088.90868738 both 29 Ground_stop
-1201  25.76322545  088.90905581 both 30 Ground_stop
-1201  25.76293703  088.90915865 both 31 Ground_stop
-1201  25.76281744  088.90917297 both 32 Ground_stop
-1201  25.76275413  088.90912741 both 33 Ground_stop
-1201  25.76262750  088.90863401 both 34 Ground_stop
-1201  25.76263923  088.90859495 both 35 Ground_stop
-1201  25.76285730  088.90851033 both 36 Ground_start
-1201  25.75153216  088.91208074 both 37 B_stop
-1201  25.76682981  088.90582116 both 38 B_start
-1202 6 0 twoway taxiway_B A
-1204 departure 16,34
-1204 arrival 16,34
-1202 0 1 twoway taxiway_B A
-1204 departure 16,34
-1204 arrival 16,34
-1202 1 2 twoway taxiway_B A
+1201  25.76345113  088.90902631 both 0 N_stop
+1201  25.76183455  088.90977690 both 1 N_split
+1201  25.76157750  088.90899973 both 2 N_split
+1201  25.76319459  088.90830395 both 3 N_split
+1201  25.76278685  088.90762232 both 4 A_start(split)
+1201  25.76281596  088.90750655 both 5 A_start(split)
+1201  25.76293493  088.90742762 both 6 A_start(split)
+1201  25.76246395  088.90758924 both 7 A_stop
+1201  25.76271510  088.90764243 both 8 A_stop
+1201  25.76260296  088.90758086 both 9 A_stop(split)
+1201  25.76282758  088.90782282 both 10 A_stop
+1201  25.75153216  088.91208074 both 11 B_stop
+1201  25.76682981  088.90582116 both 12 B_start
+1202 10 4 twoway taxiway_B A
 1204 departure 16,34
 1204 arrival 16,34
 1202 4 5 twoway taxiway_B A
 1204 departure 16,34
 1204 arrival 16,34
-1202 5 3 twoway taxiway_B A
+1202 5 6 twoway taxiway_B A
 1204 departure 16,34
 1204 arrival 16,34
-1202 6 4 twoway taxiway_B A
-1204 departure 16,34
-1204 arrival 16,34
-1202 7 8 twoway taxiway_B A
 1202 8 9 twoway taxiway_B A
-1202 9 10 twoway taxiway_B A
-1202 10 11 twoway taxiway_B A
-1202 11 12 twoway taxiway_B A
-1202 12 13 twoway taxiway_B A
-1202 13 14 twoway taxiway_B A
-1202 14 22 twoway taxiway_B A
-1202 7 15 twoway taxiway_B A
-1202 15 16 twoway taxiway_B A
-1202 16 17 twoway taxiway_B A
-1202 17 18 twoway taxiway_B A
-1202 18 19 twoway taxiway_B A
-1202 19 20 twoway taxiway_B A
-1202 20 21 twoway taxiway_B A
-1202 21 22 twoway taxiway_B A
-1202 22 7 twoway taxiway_B A
-1202 7 6 twoway taxiway_B A
 1204 departure 16,34
 1204 arrival 16,34
-1202 38 2 twoway runway 16/34
+1202 9 7 twoway taxiway_B A
+1204 departure 16,34
+1204 arrival 16,34
+1202 10 8 twoway taxiway_B A
+1204 departure 16,34
+1204 arrival 16,34
+1202 12 6 twoway runway 16/34
 1204 departure 16,34
 1204 arrival 16,34
 1204 ils 16,34
-1202 2 3 twoway runway 16/34
+1202 6 7 twoway runway 16/34
 1204 departure 16,34
 1204 arrival 16,34
 1204 ils 16,34
-1202 3 37 twoway runway 16/34
+1202 7 11 twoway runway 16/34
 1204 departure 16,34
 1204 arrival 16,34
 1204 ils 16,34
-1206 24 23 twoway Ground
-1206 25 24 twoway Ground
-1206 26 25 twoway Ground
-1206 27 26 twoway Ground
-1206 28 27 twoway Ground
-1206 30 28 twoway Ground
-1206 29 30 twoway Ground
-1206 30 29 twoway Ground
-1206 31 30 twoway Ground
-1206 32 31 twoway Ground
-1206 33 32 twoway Ground
-1206 34 33 twoway Ground
-1206 35 34 twoway Ground
-1206 36 35 twoway Ground
+1206 1 2 oneway N
+1206 2 3 oneway N
+1206 3 0 oneway N
 1400  25.76343228  088.90906394 -115.3 gpu 0 New Service Truck 1
 1401  25.76331456  088.90854548 151.6 gpu New Service Truck Destination 6
 1401  25.76279282  088.90859495 0.0 crew_car New Service Truck Destination 5
