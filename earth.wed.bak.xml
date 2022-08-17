@@ -97,6 +97,7 @@
     </object>
     <object class="WED_Airport" id="5" parent_id="4">
       <children>
+        <child id="909"/>
         <child id="906"/>
         <child id="905"/>
         <child id="904"/>
@@ -4813,50 +4814,56 @@
     </object>
     <object class="WED_RampPosition" id="902" parent_id="5">
       <children/>
-      <hierarchy name="New Ramp Start 2" locked="0" hidden="0"/>
+      <hierarchy name="Ramp 1" locked="0" hidden="0"/>
       <point latitude="25.763228039" longitude="88.908982428" heading="72.28"/>
-      <ramp_start type="Misc" traffic="0" width="B" ramp_op_type="None" airlines=""/>
+      <ramp_start type="Gate" traffic="4" width="B" ramp_op_type="None" airlines=""/>
     </object>
     <object class="WED_RampPosition" id="903" parent_id="5">
       <children/>
-      <hierarchy name="New Ramp Start 2" locked="0" hidden="0"/>
+      <hierarchy name="Ramp 2" locked="0" hidden="0"/>
       <point latitude="25.762916538" longitude="88.909104855" heading="71.11"/>
-      <ramp_start type="Misc" traffic="0" width="B" ramp_op_type="None" airlines=""/>
+      <ramp_start type="Gate" traffic="4" width="B" ramp_op_type="None" airlines=""/>
     </object>
     <object class="WED_RampPosition" id="904" parent_id="5">
       <children/>
-      <hierarchy name="New Ramp Start 2" locked="0" hidden="0"/>
+      <hierarchy name="Ramp 3" locked="0" hidden="0"/>
       <point latitude="25.762538066" longitude="88.909260500" heading="71.11"/>
-      <ramp_start type="Misc" traffic="0" width="B" ramp_op_type="None" airlines=""/>
+      <ramp_start type="Gate" traffic="4" width="B" ramp_op_type="None" airlines=""/>
     </object>
     <object class="WED_RampPosition" id="905" parent_id="5">
       <children/>
-      <hierarchy name="New Ramp Start 2" locked="0" hidden="0"/>
+      <hierarchy name="Ramp 4" locked="0" hidden="0"/>
       <point latitude="25.762167085" longitude="88.909410043" heading="71.11"/>
-      <ramp_start type="Misc" traffic="0" width="B" ramp_op_type="None" airlines=""/>
+      <ramp_start type="Gate" traffic="4" width="B" ramp_op_type="None" airlines=""/>
     </object>
     <object class="WED_RampPosition" id="906" parent_id="5">
       <children/>
-      <hierarchy name="New Ramp Start 2" locked="0" hidden="0"/>
-      <point latitude="25.761800869" longitude="88.909571734" heading="71.11"/>
-      <ramp_start type="Misc" traffic="0" width="B" ramp_op_type="None" airlines=""/>
+      <hierarchy name="Ramp 5" locked="0" hidden="0"/>
+      <point latitude="25.761797985" longitude="88.909563730" heading="71.11"/>
+      <ramp_start type="Gate" traffic="4" width="B" ramp_op_type="None" airlines=""/>
+    </object>
+    <object class="WED_RampPosition" id="909" parent_id="5">
+      <children/>
+      <hierarchy name="New Ramp Start 5" locked="0" hidden="0"/>
+      <point latitude="25.761343009" longitude="88.909455303" heading="-111.10"/>
+      <ramp_start type="Tie-Down" traffic="8" width="A" ramp_op_type="None" airlines=""/>
     </object>
   </objects>
   <prefs>
     <pref name="PropertyPane0/Closed"/>
     <pref name="doc/export_target" value="5"/>
     <pref name="doc/xml_compatibility" value="204"/>
-    <pref name="map/east" value="88.909811"/>
+    <pref name="map/east" value="88.910059"/>
     <pref name="map/navaid_map_vis" value="0"/>
-    <pref name="map/north" value="25.763992"/>
+    <pref name="map/north" value="25.762074"/>
     <pref name="map/obj_density" value="6"/>
     <pref name="map/pavement_alpha" value="4"/>
     <pref name="map/preview_vis" value="0"/>
     <pref name="map/real_lines_vis" value="1"/>
     <pref name="map/slippy_vis" value="2"/>
-    <pref name="map/south" value="25.761029"/>
+    <pref name="map/south" value="25.760645"/>
     <pref name="map/vertices_vis" value="1"/>
-    <pref name="map/west" value="88.907616"/>
+    <pref name="map/west" value="88.909001"/>
     <pref name="map/world_map_vis" value="0"/>
     <pref name="map_Airport Beacon_Kind" value="69"/>
     <pref name="map_Autogen_Autogen Height" value="10.000000"/>
@@ -4950,7 +4957,7 @@
     <pref name="window/main_split" value="530"/>
     <pref name="window/main_split2" value="1280"/>
     <pref name="window/prev_split" value="636"/>
-    <pref name="window/prop_split" value="721"/>
+    <pref name="window/prop_split" value="720"/>
     <pref name="window/width" value="1920"/>
     <pref name="window/x_loc" value="-8"/>
     <pref name="window/y_loc" value="-8"/>
